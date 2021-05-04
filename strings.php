@@ -13,7 +13,7 @@
       
 
 
-      echo str_replace("Working","Coding", $phrase);
+      echo substr($phrase, 8, 3);
      
     ?>
 
