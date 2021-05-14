@@ -20,7 +20,7 @@
         $celebrity =$_GET["celebrity"];
 
         echo "Roses are $color <br>";
-        echo "$pluralNou are blue <br>";
+        echo "$pluralNoun are blue <br>";
         echo "I love $celebrity <br>";
 
 
