@@ -13,6 +13,7 @@
        </form>
 
        <?php
+       //Use POST to Secure user Information 
        echo $_POST["password"];
        ?>
 </body>
