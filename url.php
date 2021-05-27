@@ -7,13 +7,13 @@
     
     
        
-       <form action="url.php" method="get">
+       <form action="url.php" method="post">
           Password: <input type="password" name="password"> <br>
           <input type="submit">
        </form>
 
        <?php
-       echo $_GET["password"];
+       echo $_POST["password"];
        ?>
 </body>
 </html>
