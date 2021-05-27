@@ -14,8 +14,8 @@
     <?php
 
        $friends = array("Rose","Jim","Rupi","YY");
-       $friends[1] = 200;
-       echo $friends[1];
+       $frineds[4]= "Kayla";
+       echo count($friends);
 
 
     ?>
