@@ -10,15 +10,15 @@
 
 <body>
 
+    <form action="arrays.php" method="post">
+        Password: <input type="text" name="student"> <br>
+        <input type="submit">
 
-    <?php
+        <?php
 
-       $friends = array("Rose","Jim","Rupi","YY");
-       $frineds[4]= "Kayla";
-       echo count($friends);
-
-
-    ?>
+        $grades = array("Rose" => "A+", "Pam" => "B-", "Mary" => "C+");
+         echo $grades[$_POST["student"]];
+        ?>
 
 </body>
 
